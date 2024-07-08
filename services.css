@@ -1,0 +1,340 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  /* Header css */
+  .header {
+    background-color: #002e5b;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10%;
+  }
+  .header div {
+    color: white;
+    font-size: 0.7em;
+  }
+  .fa-phone {
+    color: yellow;
+  }
+
+  /* Navbar css */
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 5px 9%;
+  }
+  .nav a {
+    text-decoration: none;
+    padding-right: 15px;
+    color: #888;
+  }
+  #right {
+    margin-left: auto;
+  }
+
+  /* Services css */
+
+  .Services{
+    width: 100%;
+    height: 15vh;
+    background-color: #002e5b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ .Services h2{
+    color: rgba(255, 255, 255, 0.84);
+    padding: 5px 0;
+    display: block;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+/* Our Best Services css */
+
+.best-services{
+    padding: 50px 10%;
+    
+}
+.best-services h3{
+    line-height: 1.1em;
+    color: #002e5b;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.best-services p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #656565;
+}
+/*four div*/
+.four{
+      height: 300px;
+       width: 100%;
+       display: flex;
+       justify-content:space-between ;
+}
+.f{
+        width:20%;
+}
+.im{
+       width:100px;
+       height: 100px;
+       border: 4px solid #002e5b;
+       border-radius: 50%;
+       /* display: flex; */
+       margin:20px  auto;
+       position: relative;
+       top:43px;
+       /* justify-content: center; */
+       /* align-items: center; */
+}
+.im i{
+        width:100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+}
+.pp{
+      background:#ececec;
+      width: 100%;
+      height: 70%;
+}
+.pp p{
+         /* padding-top: 80px; */
+         text-align: center;
+}
+.pp h4{
+  padding-top: 60px;
+         text-align: center;
+         line-height: 1.1em;
+         color: #002e5b;
+         margin-bottom: 20px;
+         font-family: 'Montserrat', sans-serif;
+         font-weight: 600;
+         font-size: 17px;
+}
+
+
+/* .spandiv{
+    position: relative;
+    top: 50px; */
+    /* background-color: aqua; */
+/* } */
+.fa-book,.fa-user-group,.fa-trophy,.fa-earth-americas{
+  font-size: 32px;
+  color: #002e5b;
+}
+.fa-user-group {
+    font-size: 32px;
+}
+
+.fa-trophy {
+    font-size: 32px;
+}
+
+
+
+/* .spandiv p{
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.6em;
+    color: #656565;
+    font-size: 1.4em;
+} */
+
+
+/* our service css */
+.ourservice {
+    padding: 50px 0px;
+  }
+  /* .ourservice .our {
+    text-align: center;
+  }
+  .our h3 {
+    font-weight: 600;
+    line-height: 1.1em;
+    font-size: 24px;
+    color: #002e5b;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .our p {
+    color: gray;
+    font-size: 15px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.6em;
+  } */
+  .sixchild {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 10%;
+  }
+  .box {
+    width: 33%;
+    margin: 20px 0px;
+    display: flex;
+  }
+  .fa-bell,.fa-font-awesome,.fa-lightbulb,.fa-bolt,.fa-compass,.fa-html5 {
+    background-color: #002e5b;
+    color: #fdd428;
+    padding: 21px;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  /* 3photo css */
+
+  .threephoto{
+    display: flex;
+    padding: 50px 10%;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+  }
+  .main-checkupbox{
+    width: 33.33%;
+    /* margin: 20px 0px; */
+    /* background-color: aqua; */
+    /* display: flex; */
+    padding: 15px .5%;
+    position: relative;
+    min-height: 1px;
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
+    display: block;
+  }
+  .checkupbox img{
+    /* display: block; */
+    max-width: 100%;
+    height: auto;
+  }
+
+  .parabox h3{
+    padding-top: 20px;
+  }
+
+
+  /* 4child css */
+
+  .fourchild {
+    background-color: #002e5b;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 50px 10%;
+  }
+  
+  .childbox {
+    width: 25%;
+    margin: 20px 0px;
+    /* background-color: red; */
+    /* padding-right: 5%; */
+    text-align: start;
+  }
+  .childbox p {
+    padding-top: 5px;
+  }
+  .ourcontact {
+    color: #fdd428;
+    font-size: 14px;
+    line-height: 1.1em;
+    /* color: #002e5b; */
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    /* font-weight: 600; */
+  }
+  .Bootstrap {
+    line-height: 1.6em;
+    color: rgba(255, 255, 255, 0.78);
+    font-weight: 700;
+  }
+  .childbox p {
+    color: white;
+  }
+  .childbox h4 {
+    color: #fdd428;
+    font-size: 14px;
+    line-height: 1.1em;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+  }
+  .list {
+    color: white;
+  }
+  .list:hover {
+    color: #fdd428;
+    cursor: pointer;
+  }
+  
+  .column {
+    color: white;
+  }
+  
+  .column:hover {
+    color: #fdd428;
+    cursor: pointer;
+  }
+  
+  .first {
+    color: white;
+  }
+  
+  .first:hover {
+    color: #fdd428;
+    cursor: pointer;
+  }
+  
+  /* web themez css */
+  
+  .footer {
+    background-color: #002e5b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+  }
+  
+  .fa-square-facebook,
+  .fa-square-twitter,
+  .fa-linkedin,
+  .fa-pinterest,
+  .fa-google-plus {
+    color: #fff;
+    font-size: 30px;
+  }
+  
+  .webthemez span {
+    color: rgba(255, 255, 255, 0.63);
+    text-align: left;
+    font-size: 12px;
+  }
+  .webthemez a {
+    text-decoration: none;
+    text-align: left;
+    font-size: 12px;
+    color: white;
+  }
+  .webthemez a:hover {
+    color: #fdd428;
+    cursor: pointer;
+  }
+  
+  
+
+  
+
+
+

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- css advance selectors -->
+    <!-- a) Type selector -->
+    <!-- 1)id selector(#) class selector(.) element selector(Tag Name) global selector(*) -->
+    <!-- b) Attribute selector -->
+    <!-- c)Combinators selectors -->
+    <!-- 1)descendant selector (space) 2) child selector (>) 3) adjacent sibling selector (+)
+   4) general sibling selector (~) -->
+    <!-- d)pseudo element (::) 1)after 2)before 3)selection 4)placeholder 5)first-line  6)first-letter -->
+    <!-- e)pseudo class (:) 1)link 2)hover 3)active 4)visited 5)nth-child() -->
+
+    <style>
+      /* a[href="###"] {
+        color: red;
+      } */
+      .parent p {
+        color: red;
+      }
+      .parent > p {
+        color: green;
+      }
+      .genral ~ p {
+        color: pink;
+      }
+      .para::first-line {
+        color: red;
+        font-size: 40px;
+        font-weight: bold;
+      }
+      .para::selection {
+        background-color: black;
+        color: red;
+      }
+      input::placeholder {
+        color: blue;
+      }
+      .para::before {
+        content: "Hello World";
+      }
+      a:link{
+        color: red;
+      }
+      a:hover{
+        color: aqua;
+      }
+      a:active{
+        color: hotpink;
+      }
+      a:visited{
+        color: chartreuse;
+      }
+      .psclass p:nth-child(6){
+        color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="###" id="anchor">Hello</a>
+    <!-- <a href="###" id="anchor">Hello World</a> -->
+    <div class="parent">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+        harum?
+      </p>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+          harum?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+          harum?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+          harum?
+        </p>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+        harum?
+      </p>
+    </div>
+
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda,
+      laborum!
+    </p>
+
+    <div class="genral"></div>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <div class="para">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+      minus repellendus harum? In, neque. Ea consequatur suscipit iusto
+      veritatis minima minus placeat, perferendis tempore voluptatem cumque cum
+      nemo! Ipsa, at eos quibusdam aliquam, expedita tempore unde voluptatibus,
+      odio quos modi mollitia nihil inventore amet suscipit. Ea dolores debitis
+      natus amet quia quo itaque, soluta ipsam magni maiores quibusdam tempore
+      corrupti aliquid ut vero. Ea nihil quis nobis fugit similique enim?
+      Impedit nobis quos ratione maxime culpa consequatur, deleniti eius odit
+      molestiae doloribus reiciendis animi voluptas unde adipisci sed
+      reprehenderit placeat! Sint commodi corporis voluptatem perspiciatis
+      suscipit maiores repellat quibusdam rem.
+    </div>
+    <input type="text" placeholder="Enter Name" />
+
+    <div class="psclass">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+  </body>
+</html>
